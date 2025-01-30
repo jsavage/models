@@ -1,0 +1,12 @@
+{
+    "name": "Python Development",
+    "postCreateCommand": "conda init bash && source ~/.bashrc && conda activate ocp",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ms-python.python",
+                "ms-toolsai.jupyter"
+            ]
+        }
+    }
+}
